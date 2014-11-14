@@ -76,6 +76,6 @@ module.exports = function(RED) {
         }
     }
 
-    RED.nodes.registerType("iced-coffee",IcedCoffeeNode);
+    RED.nodes.registerType("iced-coffeescript",IcedCoffeeNode);
     RED.library.register("functions");
 }
