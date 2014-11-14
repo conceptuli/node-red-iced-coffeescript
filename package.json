@@ -1,6 +1,6 @@
 {
   "name": "node-red-iced-coffeescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "IcedCoffeescript for Node-Red",
   "main": "nr-icedcoffee.js",
   "dependencies": {
@@ -21,6 +21,11 @@
     "conceptuli",
     "coffeescript"
   ],
+  "node-red": {
+    "nodes": {
+      "iced coffeescript": "nr-icedcoffee.js"
+    }
+  },
   "author": "Brian Bagdasarian <brian@conceptu.li> (http://conceptu.li/)",
   "license": "MIT",
   "bugs": {
