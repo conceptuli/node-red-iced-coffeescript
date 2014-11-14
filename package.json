@@ -1,22 +1,30 @@
 {
   "name": "node-red-iced-coffeescript",
-  "version": "0.0.1",
-  "description": "Iced Coffeescript for Node-red",
-  "main": "server.js",
-  "repository": {
-    "type":"git",
-    "url":"https://github.com/conceptuli/node-red-iced-coffeescript.git"
-  "author": "Brian Bagdasarian <brian@conceptu.li>",
-  "license":"MIT",
-  "keywords": [ "node-red","conceptuli", "iced-coffeescript", "coffeescript"],
-  "node-red"  :{
-    "nodes" :{
-      "iced-coffeescript":"nr-icedcoffee.js"
-    }
-  },
+  "version": "1.0.0",
+  "description": "IcedCoffeescript for Node-Red",
+  "main": "nr-icedcoffee.js",
   "dependencies": {
     "iced-coffee-script": "^1.8.0-a",
-
-  }
-  
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conceptuli/node-red-iced-coffeescript.git"
+  },
+  "keywords": [
+    "node-red",
+    "iced-coffeescript",
+    "conceptuli",
+    "coffeescript"
+  ],
+  "author": "Brian Bagdasarian <brian@conceptu.li> (http://conceptu.li/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conceptuli/node-red-iced-coffeescript/issues"
+  },
+  "homepage": "https://github.com/conceptuli/node-red-iced-coffeescript"
 }
