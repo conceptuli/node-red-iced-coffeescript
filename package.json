@@ -1,6 +1,6 @@
 {
   "name": "node-red-iced-coffeescript",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "IcedCoffeescript for Node-Red",
   "main": "nr-icedcoffee.js",
   "dependencies": {
