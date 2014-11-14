@@ -32,7 +32,7 @@ module.exports = function(RED) {
     var vm = require("vm");
     var fs = require('fs');
     var fspath = require('path');
-    var coffee = require('iced-coffee-script');
+    var iced = require('iced-coffee-script');
 
     function IcedCoffeeNode(n) {
         RED.nodes.createNode(this,n);

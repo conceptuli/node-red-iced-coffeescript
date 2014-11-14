@@ -1,23 +1,170 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/home/ubuntu/.nvm/v0.10.33/bin/node',
-1 verbose cli   '/home/ubuntu/.nvm/v0.10.33/bin/npm',
-1 verbose cli   'publish' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.33
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.11.12
 4 verbose publish [ '.' ]
-5 error Failed to parse json
-5 error Unexpected string
-6 error File: /home/ubuntu/workspace/package.json
-7 error Failed to parse package.json data.
-7 error package.json must be actual JSON, not just JavaScript.
-7 error
-7 error This is not a bug in npm.
-7 error Tell the package author to fix their package.json file. JSON.parse
-8 error System Linux 3.14.13-c9
-9 error command "/home/ubuntu/.nvm/v0.10.33/bin/node" "/home/ubuntu/.nvm/v0.10.33/bin/npm" "publish"
-10 error cwd /home/ubuntu/workspace
-11 error node -v v0.10.33
-12 error npm -v 1.4.28
-13 error file /home/ubuntu/workspace/package.json
-14 error code EJSONPARSE
-15 verbose exit [ 1, true ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/brian/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+12 verbose folder .
+13 info prepublish node-red-iced-coffeescript@1.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/brian/.npm/1f1177db-tar.lock
+16 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+17 verbose lock tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz /home/brian/.npm/5fce1bf1-41920-0-6523681851103902-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+21 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+22 verbose tar unpack /home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+23 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+24 verbose lock tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package /home/brian/.npm/2fde9ec8-41920-0-6523681851103902-package.lock
+25 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+26 verbose lock tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz /home/brian/.npm/5fce1bf1-41920-0-6523681851103902-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry nr-icedcoffee.js
+35 silly gunzTarPerm modified mode [ 'nr-icedcoffee.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry .idea/.name
+37 silly gunzTarPerm modified mode [ '.idea/.name', 436, 420 ]
+38 silly gunzTarPerm extractEntry .idea/encodings.xml
+39 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 436, 420 ]
+40 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+41 silly gunzTarPerm modified mode [ '.idea/jsLibraryMappings.xml', 436, 420 ]
+42 silly gunzTarPerm extractEntry .idea/libraries/node_red_iced_coffeescript_node_modules.xml
+43 silly gunzTarPerm modified mode [ '.idea/libraries/node_red_iced_coffeescript_node_modules.xml',
+43 silly gunzTarPerm   436,
+43 silly gunzTarPerm   420 ]
+44 silly gunzTarPerm extractEntry .idea/misc.xml
+45 silly gunzTarPerm modified mode [ '.idea/misc.xml', 436, 420 ]
+46 silly gunzTarPerm extractEntry .idea/modules.xml
+47 silly gunzTarPerm modified mode [ '.idea/modules.xml', 436, 420 ]
+48 silly gunzTarPerm extractEntry .idea/node-red-iced-coffeescript.iml
+49 silly gunzTarPerm modified mode [ '.idea/node-red-iced-coffeescript.iml', 436, 420 ]
+50 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+51 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 436, 420 ]
+52 silly gunzTarPerm extractEntry .idea/vcs.xml
+53 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 436, 420 ]
+54 silly gunzTarPerm extractEntry .idea/workspace.xml
+55 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 436, 420 ]
+56 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+57 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+58 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+59 silly lockFile 5fce1bf1-41920-0-6523681851103902-tmp-tgz tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/tmp.tgz
+60 verbose tar pack [ '/home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz',
+60 verbose tar pack   '/home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package' ]
+61 verbose tarball /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+62 verbose folder /home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+63 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+64 verbose lock tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package /home/brian/.npm/2fde9ec8-41920-0-6523681851103902-package.lock
+65 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+66 verbose lock tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz /home/brian/.npm/30f89395-d-coffeescript-1-0-2-package-tgz.lock
+67 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+68 silly lockFile 2fde9ec8-41920-0-6523681851103902-package tar:///home/brian/tmp/npm-17356-pqqOVZbY/1415945741920-0.6523681851103902/package
+69 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+70 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+71 silly lockFile 85d4e1ac--iced-coffeescript-1-0-2-package /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+72 verbose lock /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package /home/brian/.npm/85d4e1ac--iced-coffeescript-1-0-2-package.lock
+73 silly lockFile 85d4e1ac--iced-coffeescript-1-0-2-package /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+74 silly lockFile 85d4e1ac--iced-coffeescript-1-0-2-package /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+75 verbose tar unpack /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+76 silly lockFile d2d3ba47--iced-coffeescript-1-0-2-package tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+77 verbose lock tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package /home/brian/.npm/d2d3ba47--iced-coffeescript-1-0-2-package.lock
+78 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+79 verbose lock tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz /home/brian/.npm/30f89395-d-coffeescript-1-0-2-package-tgz.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm extractEntry .npmignore
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry nr-icedcoffee.js
+85 silly gunzTarPerm extractEntry .idea/.name
+86 silly gunzTarPerm extractEntry .idea/encodings.xml
+87 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+88 silly gunzTarPerm extractEntry .idea/libraries/node_red_iced_coffeescript_node_modules.xml
+89 silly gunzTarPerm extractEntry .idea/misc.xml
+90 silly gunzTarPerm extractEntry .idea/modules.xml
+91 silly gunzTarPerm extractEntry .idea/node-red-iced-coffeescript.iml
+92 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+93 silly gunzTarPerm extractEntry .idea/vcs.xml
+94 silly gunzTarPerm extractEntry .idea/workspace.xml
+95 silly lockFile d2d3ba47--iced-coffeescript-1-0-2-package tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+96 silly lockFile d2d3ba47--iced-coffeescript-1-0-2-package tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package
+97 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+98 silly lockFile 30f89395-d-coffeescript-1-0-2-package-tgz tar:///home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz
+99 verbose chmod /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz 644
+100 verbose chown /home/brian/.npm/node-red-iced-coffeescript/1.0.2/package.tgz [ 1000, 1000 ]
+101 silly lockFile 3a52ce78- .
+102 silly lockFile 3a52ce78- .
+103 silly publish { name: 'node-red-iced-coffeescript',
+103 silly publish   version: '1.0.2',
+103 silly publish   description: 'IcedCoffeescript for Node-Red',
+103 silly publish   main: 'nr-icedcoffee.js',
+103 silly publish   dependencies: { 'iced-coffee-script': '^1.8.0-a', 'socket.io': '^0.9.17' },
+103 silly publish   devDependencies: {},
+103 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+103 silly publish   repository:
+103 silly publish    { type: 'git',
+103 silly publish      url: 'https://github.com/conceptuli/node-red-iced-coffeescript.git' },
+103 silly publish   keywords: [ 'node-red', 'iced-coffeescript', 'conceptuli', 'coffeescript' ],
+103 silly publish   author:
+103 silly publish    { name: 'Brian Bagdasarian',
+103 silly publish      email: 'brian@conceptu.li',
+103 silly publish      url: 'http://conceptu.li/' },
+103 silly publish   license: 'MIT',
+103 silly publish   bugs: { url: 'https://github.com/conceptuli/node-red-iced-coffeescript/issues' },
+103 silly publish   homepage: 'https://github.com/conceptuli/node-red-iced-coffeescript',
+103 silly publish   readme: '#get your node-red coffee on ice!\n=================================\n\nThis node works (almost) exactly like the "node-red-coffeescript" node plugin, except it has the added\nvalue of iced coffeescript.\n\n\n##Installation ##\n\n<pre>\nnpm install node-red-iced-coffeescript\n</pre>\n\n##Notes##\n\nMake sure that you have iced-coffee-script installed locally or (better) globally\n\n##Author##\n\nBrought to you by the team at Conceptuli \n<http://www.conceptu.li>',
+103 silly publish   readmeFilename: 'README.md',
+103 silly publish   _id: 'node-red-iced-coffeescript@1.0.2',
+103 silly publish   dist: { shasum: '0f34e7cf166393a9717da2e2560588e4417564be' },
+103 silly publish   _from: '.' }
+104 verbose url raw node-red-iced-coffeescript
+105 verbose url resolving [ 'https://registry.npmjs.org/',
+105 verbose url resolving   './node-red-iced-coffeescript' ]
+106 verbose url resolved https://registry.npmjs.org/node-red-iced-coffeescript
+107 info trying registry request attempt 1 at 01:15:42
+108 http PUT https://registry.npmjs.org/node-red-iced-coffeescript
+109 http 403 https://registry.npmjs.org/node-red-iced-coffeescript
+110 error publish Failed PUT 403
+111 error Error: forbidden cannot modify pre-existing version: 1.0.2
+111 error old={"name":"node-red-iced-coffeescript","version":"1.0.2","description":"IcedCoffeescript for Node-Red","main":"nr-icedcoffee.js","dependencies":{"iced-coffee-script":"^1.8.0-a","socket.io":"^0.9.17"},"devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/conceptuli/node-red-iced-coffeescript.git"},"keywords":["node-red","iced-coffeescript","conceptuli","coffeescript"],"author":{"name":"Brian Bagdasarian","email":"brian@conceptu.li","url":"http://conceptu.li/"},"license":"MIT","bugs":{"url":"https://github.com/conceptuli/node-red-iced-coffeescript/issues"},"homepage":"https://github.com/conceptuli/node-red-iced-coffeescript","_id":"node-red-iced-coffeescript@1.0.2","dist":{"shasum":"2c16d32c7df4f05d6afdc5c012c794f84e799895","tarball":"http://registry.npmjs.org/node-red-iced-coffeescript/-/node-red-iced-coffeescript-1.0.2.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"bags3071","email":"brian@conceptu.li"},"maintainers":[{"name":"bags3071","email":"brian@conceptu.li"}]}
+111 error new={"name":"node-red-iced-coffeescript","version":"1.0.2","description":"IcedCoffeescript for Node-Red","main":"nr-icedcoffee.js","dependencies":{"iced-coffee-script":"^1.8.0-a","socket.io":"^0.9.17"},"devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/conceptuli/node-red-iced-coffeescript.git"},"keywords":["node-red","iced-coffeescript","conceptuli","coffeescript"],"author":{"name":"Brian Bagdasarian","email":"brian@conceptu.li","url":"http://conceptu.li/"},"license":"MIT","bugs":{"url":"https://github.com/conceptuli/node-red-iced-coffeescript/issues"},"homepage":"https://github.com/conceptuli/node-red-iced-coffeescript","readme":"#get your node-red coffee on ice!\u000a=================================\u000a\u000aThis node works (almost) exactly like the \"node-red-coffeescript\" node plugin, except it has the added\u000avalue of iced coffeescript.\u000a\u000a\u000a##Installation ##\u000a\u000a<pre>\u000anpm install node-red-iced-coffeescript\u000a</pre>\u000a\u000a##Notes##\u000a\u000aMake sure that you have iced-coffee-script installed locally or (better) globally\u000a\u000a##Author##\u000a\u000aBrought to you by the team at Conceptuli \u000a<http://www.conceptu.li>","readmeFilename":"README.md","_id":"node-red-iced-coffeescript@1.0.2","dist":{"shasum":"0f34e7cf166393a9717da2e2560588e4417564be","tarball":"http://registry.npmjs.org/node-red-iced-coffeescript/-/node-red-iced-coffeescript-1.0.2.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"bags3071","email":"brian@conceptu.li"},"maintainers":[{"name":"bags3071","email":"brian@conceptu.li"}]}: node-red-iced-coffeescript
+111 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+111 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+111 error     at Request.EventEmitter.emit (events.js:107:17)
+111 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+111 error     at Request.EventEmitter.emit (events.js:126:20)
+111 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+111 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+111 error     at _stream_readable.js:895:16
+111 error     at process._tickCallback (node.js:339:11)
+112 error If you need help, you may report this *entire* log,
+112 error including the npm and node versions, at:
+112 error     <http://github.com/npm/npm/issues>
+113 error System Linux 3.13.0-39-generic
+114 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+115 error cwd /home/brian/WebstormProjects/node-red-iced-coffeescript
+116 error node -v v0.11.12
+117 error npm -v 1.4.3
+118 verbose exit [ 1, true ]
