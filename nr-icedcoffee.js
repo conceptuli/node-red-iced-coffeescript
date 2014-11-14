@@ -45,7 +45,7 @@ module.exports = function(RED) {
                 if (msg != null) {
                     var cs = "f";
                     try {
-                        var results = eval( coffee.compile( this.func, {sandbox:true} ) );
+                        var results = eval( iced.compile( this.func, {sandbox:true} ) );
                         if (results == null) {
                             results = [];
                         } else if (results.length == null) {
